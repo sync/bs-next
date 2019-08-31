@@ -1,15 +1,21 @@
 # bs-next
 
-## Run Project
+Minimal Next.js bindings written in ReasonML
 
-```sh
-yarn install
-yarn start
+## Installation
+
+```shell
+# yarn
+yarn add @sync/bs-next
+
+# or npm
+npm install --save @sync/bs-next
 ```
 
-## Build for Production
+Then add it to `bsconfig.json`:
 
-```sh
-npm run clean
-npm run build
+```json
+"bs-dependencies": [
+  "bs-next"
+]
 ```

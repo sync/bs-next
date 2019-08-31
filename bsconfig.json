@@ -1,0 +1,28 @@
+{
+  "name": "bs-next",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    "src",
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs"
+    },
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": ["reason-react"],
+  "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-react-testing-library"],
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}

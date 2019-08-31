@@ -1,0 +1,60 @@
+{
+  "name": "@sync/bs-next",
+  "version": "0.0.1",
+  "description": "Minimal Next.js bindings written in ReasonML",
+  "main": "src/Next.re",
+  "author": "Anthony Mittaz",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "yarn build && jest",
+    "refmt": "find -E . -regex '.+\\.rei?' -exec refmt --in-place {} \\;",
+    "preversion": "yarn run clean && yarn run refmt && yarn run test"
+  },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "keywords": [
+    "react",
+    "reason",
+    "reason-react",
+    "reasonml",
+    "ocaml",
+    "bucklescript",
+    "next.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sync/bs-next.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "peerDependencies": {
+    "bs-platform": "^5.0.6",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "reason-react": "^0.7.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.9",
+    "bs-platform": "^5.0.6",
+    "bs-react-testing-library": "^0.6.0",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "reason-react": "^0.7.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testMatch": [
+      "**/lib/js/__tests__/*_test.bs.js"
+    ]
+  }
+}

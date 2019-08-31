@@ -10,8 +10,8 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "yarn build && jest",
-    "refmt": "find -E . -regex '.+\\.rei?' -exec refmt --in-place {} \\;",
-    "preversion": "yarn run clean && yarn run refmt && yarn run test"
+    "format": "find -E . -regex '.+\\.rei?' -exec bsrefmt --in-place {} \\;",
+    "preversion": "yarn clean && yarn format && yarn test"
   },
   "files": [
     "src",

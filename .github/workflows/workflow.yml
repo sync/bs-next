@@ -1,0 +1,28 @@
+name: Main Workflow
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Install, Test and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.16.0"
+
+      - name: Install
+        run: |
+          npm install -g yarn
+          yarn install
+
+      - name: Test and Publish
+        run: |
+         yarn publish --minor
+         git push --tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

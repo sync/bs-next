@@ -22,6 +22,7 @@ jobs:
 
       - name: Test and Publish
         run: |
+         echo //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN >> .npmrc
          yarn publish --minor
          git push --tags
         env:

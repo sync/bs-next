@@ -2,7 +2,6 @@ open Jest;
 open Expect;
 open ReactTestingLibrary;
 open Next;
-open Next.Router;
 
 module RouterContextProvider = {
   [@bs.deriving abstract]

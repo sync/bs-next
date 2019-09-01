@@ -3,6 +3,7 @@
   "version": "0.11.0",
   "description": "Minimal Next.js bindings written in ReasonML",
   "main": "src/Next.re",
+  "types": "dist/types/Next.gen.d.ts",
   "author": "Anthony Mittaz",
   "license": "MIT",
   "scripts": {
@@ -11,7 +12,8 @@
     "clean": "bsb -clean-world",
     "test": "yarn build && jest",
     "format": "bsrefmt --in-place src/*.r*",
-    "preversion": "yarn clean && yarn format && yarn test"
+    "build-types": "tsc --emitDeclarationOnly",
+    "preversion": "yarn clean && yarn format && yarn build-types && yarn test"
   },
   "files": [
     "src",
@@ -39,13 +41,16 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "0.4.9",
+    "@types/node": "^12.7.3",
+    "@types/react": "^16.9.2",
     "bs-platform": "^5.0.6",
     "bs-react-testing-library": "0.6.0",
     "gentype": "^2.38.0",
     "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0",
-    "reason-react": "0.7.0"
+    "reason-react": "0.7.0",
+    "typescript": "^3.6.2"
   },
   "jest": {
     "moduleFileExtensions": [

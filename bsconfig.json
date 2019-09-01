@@ -20,7 +20,6 @@
     }
   ],
   "suffix": ".bs.js",
-  "namespace": true,
   "bs-dependencies": ["reason-react"],
   "bs-dev-dependencies": ["@glennsl/bs-jest", "bs-react-testing-library"],
   "bsc-flags": ["-bs-super-errors"],

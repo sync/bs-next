@@ -1,11 +1,8 @@
 name: Main Workflow
-on:
-  push:
-    branches:
-      - master
+on: [push]
 jobs:
   build:
-    name: Install, Test and Deploy
+    name: Install and Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -20,9 +17,5 @@ jobs:
           npm install -g yarn
           yarn install
 
-      - name: Test and Publish
-        run: |
-         echo //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN >> .npmrc
-         yarn publish --minor
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Test
+        run: yarn test

@@ -1,6 +1,6 @@
 {
-  "name": "@sync/bs-next",
-  "version": "0.3.0",
+  "name": "@dblechoc/bs-next",
+  "version": "0.6.0",
   "description": "Minimal Next.js bindings written in ReasonML",
   "main": "src/Next.re",
   "author": "Anthony Mittaz",
@@ -29,9 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sync/bs-next.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
     "bs-platform": "^5.0.6",

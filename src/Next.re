@@ -25,7 +25,7 @@ module Error = {
 
 module QueryString = {
   type t;
-  [@bs.module "queryString"] external parse: string => t = "parse";
+  [@bs.module "querystring"] external parse: string => t = "parse";
 };
 
 module Router = {

@@ -29,12 +29,13 @@ module QueryString = {
 };
 
 module Router = {
-  [@bs.deriving abstract]
+  [@gentype]
   type t = {
-    route: string,
-    pathname: string,
-    query: QueryString.t,
-    asPath: string,
+    .
+    "route": string,
+    "pathname": string,
+    "query": QueryString.t,
+    "asPath": string,
   };
 
   [@bs.module "next/router"] [@bs.return nullable]

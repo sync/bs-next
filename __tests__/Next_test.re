@@ -77,7 +77,7 @@ test("Router", () => {
     let make = () => {
       let router = Next.Router.useRouter();
       switch (router) {
-      | Some(router) => router->routeGet->React.string
+      | Some(router) => router##route->React.string
       | None => "got no route"->React.string
       };
     };

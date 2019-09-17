@@ -19,3 +19,9 @@ Then add it to `bsconfig.json`:
   "bs-next"
 ]
 ```
+
+## Publishing to NPM
+
+```sh
+yarn publish --minor --access public
+```

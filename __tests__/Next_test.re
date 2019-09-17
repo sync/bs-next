@@ -56,7 +56,7 @@ describe("Router", () => {
       push: unit => unit,
     };
 
-    [@bs.module "next-server/dist/lib/router-context"]
+    [@bs.module "next/dist/next-server/lib/router-context"]
     external context: React.Context.t(t) = "RouterContext";
 
     let make = context->React.Context.provider;

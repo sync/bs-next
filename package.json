@@ -55,7 +55,7 @@
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "reason-react": "0.7.0",
-    "typescript": "3.6.4"
+    "typescript": "3.7.2"
   },
   "jest": {
     "moduleFileExtensions": [

@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "0.4.9",
-    "@types/node": "12.12.8",
+    "@types/node": "12.12.9",
     "@types/react": "16.9.11",
     "bs-platform": "6.2.1",
     "bs-react-testing-library": "0.6.0",

@@ -1904,10 +1904,10 @@ bs-dom-testing-library@^0.5.0:
   dependencies:
     "@testing-library/dom" "^5.6.0"
 
-bs-platform@6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-6.2.1.tgz#30266c7f23a3b323e1fc9596a9a6eb9f053981b4"
-  integrity sha512-FmQ8kYV52A0Y302qh6o0/J9TO+kHzsjGQnsjrg/ONUYIY/jWzBnt9dCBO6EBnaEKfFJLqk5JrUDCxuihqtTcnw==
+bs-platform@7.0.0-dev.1:
+  version "7.0.0-dev.1"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.0-dev.1.tgz#e9f2b05c68b16e325fc9a284ca529bb84fd5509b"
+  integrity sha512-nXxk3oUBvp2o0D8Qc2JOKNeeYNg/wPVYj+eu4vPbWzR/dbhfc4bRG/QkU6z6DuV1aiDzGnKIBY06azYPuw4a+g==
 
 bs-react-testing-library@0.6.0:
   version "0.6.0"

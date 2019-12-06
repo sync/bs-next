@@ -47,7 +47,6 @@ describe("QueryString", () =>
 
 describe("Router", () => {
   module RouterContextProvider = {
-    [@bs.deriving abstract]
     type t = {
       route: string,
       pathname: string,
@@ -73,13 +72,13 @@ describe("Router", () => {
   };
 
   let fakeRoute = push =>
-    RouterContextProvider.t(
-      ~route="index",
-      ~pathname="/",
-      ~query=QueryString.parse("/"),
-      ~asPath="/",
-      ~push,
-    );
+    RouterContextProvider.{
+      route: "index",
+      pathname: "/",
+      query: QueryString.parse("/"),
+      asPath: "/",
+      push,
+    };
 
   module TestComponent = {
     [@react.component]

@@ -50,7 +50,7 @@
     "@types/react": "16.9.23",
     "bs-platform": "7.1.1",
     "bs-react-testing-library": "0.6.0",
-    "gentype": "3.12.0",
+    "gentype": "3.13.0",
     "next": "9.2.2",
     "npm-run-all": "4.1.5",
     "react": "16.13.0",

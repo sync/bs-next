@@ -45,7 +45,7 @@
     "reason-react": "^0.7.0"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "0.4.9",
+    "@glennsl/bs-jest": "0.4.10",
     "@types/node": "12.12.21",
     "@types/react": "16.9.23",
     "bs-platform": "7.1.1",

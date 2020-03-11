@@ -48,7 +48,7 @@
     "@glennsl/bs-jest": "0.4.10",
     "@types/node": "12.12.21",
     "@types/react": "16.9.23",
-    "bs-platform": "7.2.1",
+    "bs-platform": "7.2.2",
     "bs-react-testing-library": "0.6.0",
     "gentype": "3.14.0",
     "next": "9.3.0",

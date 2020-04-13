@@ -2097,10 +2097,10 @@ bs-platform@7.2.2:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.2.2.tgz#76fdc63e4889458ae3d257a0132107a792f2309c"
   integrity sha512-PWcFfN+jCTtT/rMaHDhKh+W9RUTpaRunmSF9vbLYcrJbpgCNW6aFKAY33u0P3mLxwuhshN3b4FxqGUBPj6exZQ==
 
-bs-react-testing-library@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/bs-react-testing-library/-/bs-react-testing-library-0.7.0.tgz#6f1ea1bb3964332327a803c4461914652045094d"
-  integrity sha512-p/VblKlsHhIf0Xw97WlADc4tdpi1r+rKhyDozrz8lpJjO4D4aCBzFHDCn18asFNvgs4FGSv4jpxH+jz2NR98Pg==
+bs-react-testing-library@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/bs-react-testing-library/-/bs-react-testing-library-0.7.2.tgz#42238cc68384aa1f4c5fb28d03157fd23f094249"
+  integrity sha512-1VSPciqjZ+2KjRxVwnNUxnGpNVNL/4WJBNQHxfwOemp+rmZeHHX0U9fifcjw/CHho2t9rJw/baPPr46LsjahPw==
   dependencies:
     "@testing-library/react" "^10.0.2"
     bs-dom-testing-library "^0.6.1"

@@ -49,7 +49,7 @@
     "@types/node": "12.12.31",
     "@types/react": "16.9.34",
     "bs-platform": "7.2.2",
-    "bs-react-testing-library": "0.7.0",
+    "bs-react-testing-library": "0.7.2",
     "gentype": "3.21.0",
     "next": "9.3.4",
     "npm-run-all": "4.1.5",

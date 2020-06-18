@@ -2260,10 +2260,10 @@ browserslist@^4.0.0:
     node-releases "^1.1.53"
     pkg-up "^2.0.0"
 
-bs-dom-testing-library@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/bs-dom-testing-library/-/bs-dom-testing-library-0.6.1.tgz#0de5fefa1796e9796622abdfe7536bf37ca8577c"
-  integrity sha512-4RSHYf0IpSQPnbFNYS26PqWBT6Xqk3DetnLAElP3qiD2qa3ertqNUDtgIB5jN1BXcDsJ3myAdDDE7QVlqnTgpw==
+bs-dom-testing-library@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/bs-dom-testing-library/-/bs-dom-testing-library-0.6.2.tgz#ddc347d2390502eb4803ba44efe23dcb3c7e3f47"
+  integrity sha512-2B7VL5z/26MATtifzLGpoIA5bnCKrWXouvJ8dd9gmavxi2sWg0Kwt61Id5WhJbBsulRjTWB6u4NU7amDJMfS9g==
   dependencies:
     "@testing-library/dom" "^7.1.3"
 
@@ -2272,13 +2272,13 @@ bs-platform@7.3.2:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.3.2.tgz#301f5c9b4e8cf5713cb60ca22e145e56e793affe"
   integrity sha512-seJL5g4anK9la4erv+B2o2sMHQCxDF6OCRl9en3hbaUos/S3JsusQ0sPp4ORsbx5eXfHLYBwPljwKXlgpXtsgQ==
 
-bs-react-testing-library@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/bs-react-testing-library/-/bs-react-testing-library-0.7.2.tgz#42238cc68384aa1f4c5fb28d03157fd23f094249"
-  integrity sha512-1VSPciqjZ+2KjRxVwnNUxnGpNVNL/4WJBNQHxfwOemp+rmZeHHX0U9fifcjw/CHho2t9rJw/baPPr46LsjahPw==
+bs-react-testing-library@0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/bs-react-testing-library/-/bs-react-testing-library-0.7.3.tgz#826faf3b736fab643772cfc00edf5fc43240860a"
+  integrity sha512-M/G8kHKPOtEy4kFJyQb8NyFdFd5/89YautlIABpXd59ugIjyHc40St/HZHqrZoDxqsxsZrtmioXAor8E7oTlTA==
   dependencies:
     "@testing-library/react" "^10.0.2"
-    bs-dom-testing-library "^0.6.1"
+    bs-dom-testing-library "^0.6.2"
 
 bser@^2.0.0:
   version "2.1.1"

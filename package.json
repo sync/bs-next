@@ -37,7 +37,7 @@
     "url": "https://github.com/sync/bs-next.git"
   },
   "peerDependencies": {
-    "bs-platform": "^7.0.0",
+    "bs-platform": "^7.0.0 || ^8.0.0",
     "gentype": "^3.6.0",
     "next": "^9.1.4",
     "react": "^16.11.0",
@@ -48,7 +48,7 @@
     "@glennsl/bs-jest": "0.5.1",
     "@types/node": "12.12.31",
     "@types/react": "16.9.38",
-    "bs-platform": "7.3.2",
+    "bs-platform": "8.0.1",
     "bs-react-testing-library": "0.7.3",
     "gentype": "3.26.0",
     "next": "9.4.4",
